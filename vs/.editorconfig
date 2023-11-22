@@ -222,6 +222,10 @@ dotnet_naming_rule.field_should_be_pascal_case.severity = warning
 dotnet_naming_rule.field_should_be_pascal_case.symbols = field
 dotnet_naming_rule.field_should_be_pascal_case.style = pascal_case
 
+dotnet_naming_rule.const_variable_should_be_pascal_case.severity = warning
+dotnet_naming_rule.const_variable_should_be_pascal_case.symbols = const_variable
+dotnet_naming_rule.const_variable_should_be_pascal_case.style = pascal_case
+
 dotnet_naming_rule.variable_should_be_camel_case.severity = warning
 dotnet_naming_rule.variable_should_be_camel_case.symbols = variable
 dotnet_naming_rule.variable_should_be_camel_case.style = camel_case
@@ -259,6 +263,10 @@ dotnet_naming_symbols.private_field.required_modifiers =
 dotnet_naming_symbols.field.applicable_kinds = 
 dotnet_naming_symbols.field.applicable_accessibilities = public, internal, protected, protected_internal, private_protected, local
 dotnet_naming_symbols.field.required_modifiers = 
+
+dotnet_naming_symbols.const_variable.applicable_kinds = parameter, local
+dotnet_naming_symbols.const_variable.applicable_accessibilities = *
+dotnet_naming_symbols.const_variable.required_modifiers = const
 
 dotnet_naming_symbols.variable.applicable_kinds = parameter, local
 dotnet_naming_symbols.variable.applicable_accessibilities = *
